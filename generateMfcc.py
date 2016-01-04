@@ -25,7 +25,7 @@ def filtering(wavFile, x0, x1):
 
     filteredFile = '%s_filtered.wav' % fileName
 
-    cmd = 'sox %s.wav %s sinc %d-%d' % (fileName, filteredFile, x0, x1)
+    cmd = 'sox %s.wav %s sinc %d-%d norm' % (fileName, filteredFile, x0, x1)
     execute(cmd)
 
     filteredFile = filteredFile.replace('\(', '(')
