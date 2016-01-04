@@ -1,0 +1,10 @@
+test*
+*.raw
+*.wav
+*.lpc
+*.swp
+*.pyc
+*.txt
+*.png
+*~
+~.tmp
